@@ -10,8 +10,8 @@ OPTIONS:
   -P, --payload       set the payload for msfvenom (see below)
   -l, --lhost         set the lhost for msfvenom payload
   -p, --port          set the port for msfvenom payload
-  -n, --name          change the app name
-  -i, --icon          change the app icon
+  -n, --name          change the app name (not implemented yet)
+  -i, --icon          change the app icon (not implemented yet)
   -o, --output        select the output file
 ```
 
@@ -32,9 +32,15 @@ android/shell/reverse_tcp
 ## Dependencies
 - msfvenom            (_only when use `-g`_)  https://github.com/rapid7/metasploit-framework
 - apktool                                     https://ibotpeaches.github.io/Apktool/
-- d2j-apk-sign                      
+- d2j-apk-sign                                http://repository-dex2jar.forge.cloudbees.com/snapshot/com/googlecode/d2j/dex-tools/2.1-SNAPSHOT/
 
 _All of them included in Kali Linux_
+
+## TODO
+- [ ] Function -n (change name)
+- [ ] Function -i (change icon)
+- [ ] List missing dependencies
+- [ ] Prompt for bin location when not found
 
 ## EXAMPLES
 
