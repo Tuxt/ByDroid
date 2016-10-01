@@ -176,22 +176,9 @@ if $generate ; then
 
 fi
 
-############################
-echo "GENERATE = $generate"
-echo "PAYLOAD = $payload"
-echo "LHOST = $lhost"
-echo "PORT = $port"
-echo "NAME = $name"
-echo "ICON = $icon"
-echo "OUTPUT = $output"
-echo "PACKAGE = $package"
-echo "FILE = $file"
-############################
-
 # Lets work
 readonly CURDIR=$(pwd)
 readonly TMPDIR=$(mktemp -d)
-echo $TMPDIR ############################### DEBUG
 cd $TMPDIR
 
 # Generate apk if needed
