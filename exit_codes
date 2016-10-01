@@ -1,0 +1,12 @@
+0:	OK
+1:	Error de parámetros: desconocido
+2:	Error de parámetros: payload inválido
+3:	Error de parámetros: puerto no numérico
+4:	Error de parámetros: puerto fuera de rango
+5:	Error de parámetros: archivo de icono no encontrado o no regular
+6:	Error de parámetros: falta pakete o archivo de entrada
+7:	Error de parámetros: archivo de entrada no encontrado o no regular
+8:	Error de parámetros: falta -P, -l y -p con flag -g.
+9:	Error de dependencias: general
+10:	Error de dependencias: msfvenom
+11:	Error de proceso: paquete original no identificado
