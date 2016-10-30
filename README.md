@@ -41,6 +41,8 @@ _All of them included in Kali Linux_
 - [ ] Function -i (change icon)
 - [ ] List missing dependencies
 - [ ] Prompt for bin location when not found
+- [ ] Change d2j-apk-sign for jarsigner
+- [ ] Resource files generation
 
 ## EXAMPLES
 
