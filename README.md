@@ -37,7 +37,7 @@ android/shell/reverse_tcp
 _All of them included in Kali Linux_
 
 ## TODO
-- [ ] Function -n (change name)
+- [x] Function -n (change name)
 - [ ] Function -i (change icon)
 - [ ] List missing dependencies
 - [ ] Prompt for bin location when not found
