@@ -1,7 +1,7 @@
 #!/bin/bash
 # ByDroid
 # Written by Tuxt
-# Version 0.2 - 01/Oct/2016
+# Version 0.2 - 04/Nov/2016
 
 # Constants
 readonly VERSION=0.2
